@@ -19,7 +19,7 @@ django_heroku.settings(locals())
 
 BASE_DI = Path(__file__).resolve().parent.parent
 
-STATIC_ROOT = BASE_DI / 'staticfiles'
+STATIC_ROOT = BASE_DI / 'static'
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
