@@ -13,11 +13,11 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 from six.moves import urllib
 from pathlib import Path
-import django_heroku
+#import django_heroku
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
-BASE_DI = Path(__file__).resolve().parent.parent
+#BASE_DI = Path(__file__).resolve().parent.parent
 
 STATIC_ROOT = BASE_DI / 'static'
 
