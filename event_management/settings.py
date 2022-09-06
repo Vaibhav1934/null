@@ -17,7 +17,7 @@ from pathlib import Path
 
 #django_heroku.settings(locals())
 
-#BASE_DI = Path(__file__).resolve().parent.parent
+BASE_DI = Path(__file__).resolve().parent.parent
 
 STATIC_ROOT = BASE_DI / 'static'
 
