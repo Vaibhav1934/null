@@ -103,7 +103,7 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 
 
 #ongodb config
- DATABASES = {
+  DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd25mu8cl7puj5n',
