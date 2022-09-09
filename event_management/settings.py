@@ -94,10 +94,23 @@ WSGI_APPLICATION = 'event_management.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 # Sqlite config 
-DATABASES = {
+#DATABASES = {
+ #   'default': {
+ #       'ENGINE': 'django.db.backends.sqlite3',
+  #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+  #  }
+#}
+
+
+#ongodb config
+ DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd25mu8cl7puj5n',
+        'USER': 'oubedpwvziswfg',
+        'PASSWORD': 'a3d3daf5b1c94d76fc9068bc1dfff7d607b5b119193d287864eb23f02823dc19',
+        'HOST': 'ec2-3-208-79-113.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
