@@ -34,4 +34,5 @@ pytz==2020.1
 six==1.15.0
 sqlparse==0.2.4
 gunicorn
-
+pip install psycopg2
+pip install pygresql
