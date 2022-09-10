@@ -15,7 +15,6 @@ python-dateutil==2.8.1
 pytz==2020.1
 six==1.15.0
 sqlparse==0.2.4
-gunicorndj-database-url
 gunicorn
 psycopg2
 pygresql
